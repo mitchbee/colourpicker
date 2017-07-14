@@ -1,0 +1,46 @@
+html{
+  background-color: #333333;
+  margin: 0;
+  font-size: 16px;
+}
+
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+header{
+  height:60px;
+}
+
+#main{
+  height: calc(100% - 120px);
+  background-color: aliceblue;
+}
+
+footer{
+  bottom: 0;
+  height:60px;
+}
+
+#tabs ul{
+  margin:0;
+  display: flex;
+  justify-content:space-around;
+  padding:0 20%;
+}
+
+#tabs ul li{
+  display: inline;
+  list-style: none;
+  height:60px;
+  width:60px;
+}
